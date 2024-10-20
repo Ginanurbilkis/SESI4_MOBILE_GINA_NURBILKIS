@@ -5,18 +5,21 @@ export const style = StyleSheet.create({
         color: 'black',
     }, 
     whiteLarge: {
+        fontFamily: 'Sora-Bold',
         color: 'white',
         fontSize: 34,
         fontWeight: 'semibold'
     },
 
     whiteMedium: {
+        fontFamily: 'Sora-Bold',
         color: 'white',
         fontSize: 20,
         fontWeight: 'semibold'
     },
 
     whiteHint: {
+        fontFamily: 'Sora-Bold',
         color: 'white',
         fontSize: 14,
         fontWeight: 'regular'

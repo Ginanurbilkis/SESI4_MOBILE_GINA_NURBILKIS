@@ -1,6 +1,7 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
 import { style } from '../style/font_style'
+import { containerStyle } from '../style/container_style'
 
 const StartScreen = () => {
   return (
@@ -21,10 +22,13 @@ const StartScreen = () => {
        width: '100%'
         }} >
         <Text style={[style.whiteLarge, {textAlign: 'center', width: 280},]} > Coffee so good, your taste buds will love it.</Text>
+        <View style={{ height: 10}}/>
         <Text style={[style.whiteHint, {width: 270, textAlign: 'center'}]} > The best grain, the finest roast, the powerful flavor. </Text>
-        <View style={}>
+        <View style={{ height: 25}}/>
+        <View style={ containerStyle.button }>
           <Text style={style.whiteMedium}> Get Started </Text>
         </View>
+        <View style={{ height: 40}}/>
       </View>
     </View>
   )

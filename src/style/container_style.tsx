@@ -1,5 +1,12 @@
 import { StyleSheet } from "react-native";
+import { Colors } from "react-native/Libraries/NewAppScreen";
+import colors from "./colors";
 
 export const containerStyle = StyleSheet.create({
-    button: { }
+    button: { 
+        paddingHorizontal: 100,
+        paddingVertical: 20,
+        backgroundColor: colors.primaryColor,
+        borderRadius: 16
+    }
 })
